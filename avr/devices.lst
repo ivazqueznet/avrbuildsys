@@ -1,0 +1,15 @@
+Identifier:Full MCU:Short MCU:Programmer:AVRDUDE Options:Default clock rate
+# 16MHz ATmega32U4 with Caterina bootloader
+m32u4:atmega32u4:m32u4:avr109:-P /dev/ttyACM0:16000000L
+# 16MHz ATmega128 via USBasp
+m128:atmega128:m128:usbasp::16000000L
+# 8MHz ATtiny10 via AVRISP MkII
+t10:attiny10:t10:avrisp2::8000000L
+# 16.5MHz ATtiny85 (for V-USB) via USBasp
+t85usb:attiny85:t85:usbasp::16500000L
+
+# Additional examples follow
+t85:attiny85:t85:usbasp::8000000L
+m328p:atmega328p:m328p:usbasp::8000000L
+t2313:attiny2313:t2313:usbasp::8000000L
+m8a:atmega8a:m8:usbasp::12000000L

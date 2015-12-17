@@ -1,0 +1,18 @@
+# Device from devices.lst
+# Can be provided at the command line
+DEVICE?=
+
+# Name of final executable
+# Must match main code filename (e.g. foo.c -> foo)
+BINARY=<binary>
+
+# Additional object files required to build
+OBJECTS=
+
+# Path of an alternate buildchain if not in $PATH
+# Useful for using Atmel-provided buildchain for e.g. ATtiny10
+AVRPATH=
+
+### Do not modify anything below this line
+
+include ../Makefile.mk

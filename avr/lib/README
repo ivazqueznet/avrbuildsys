@@ -1,0 +1,4 @@
+This directory should contain subdirectories for each AVR architecture
+that contain precompiled static libraries (i.e. .a files). The name of
+the subdirectory is "avr" followed by the architecture number,
+e.g. "avr25/".
